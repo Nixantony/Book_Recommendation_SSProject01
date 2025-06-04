@@ -7,21 +7,21 @@ The home page displays the top 10 books based on genres. In recent years, recomm
 ```
 bookRecommendation/
 │
-├── database/           # Contains our SQLite database
-│   └── books.db       # The database file with all our books
+├── database/                 # This folder has the SQLite database file
+│   └── books.db              # The actual database that stores all the book info
 │
-├── src/               # Source code folder
-│   ├── models/        # Contains classes that represent things (like books)
-│   │   └── book.py   # The Book class
+├── src/                      # This is where all the main code lives
+│   ├── models/               # Contains the Book class (represents each book)
+│   │   └── book.py           # Defines what a Book is
 │   │
-│   ├── database/     # Contains database-related code
-│   │   └── databaseManager.py  # Handles all database operations
+│   ├── database/             # Code that connects to and works with the database
+│   │   └── databaseManager.py # Does all the database operations (like add, get books)
 │   │
-│   └── ui/           # Contains user interface code
-│       └── menuManager.py      # Handles menus and user input
+│   └── ui/                   # Code for menus and taking user input
+│       └── menuManager.py    # Shows the menu and handles what the user wants to do
 │
-├── main.py           # The main program file
-└── README.md         # This file!
+├── main.py                   # This is the main file that starts the program
+└── README.md                 # This file you’re reading right now!
 ```
 
 ## How to Run the Program
