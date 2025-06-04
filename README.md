@@ -1,6 +1,6 @@
 # Book Recommendation System
 
-A simple Python program that recommends books based on genres. This project is designed to be beginner-friendly and helps learn basic Object-Oriented Programming (OOP) concepts.
+The home page displays the top 10 books based on genres. In recent years, recommender systems have been in great demand in every field, and so has it been in the world of readers. There have been a lot of recommendation techniques developed over the past years, such as Content-Based Filtering, Collaborative Filtering, and Hybrid Filtering. In this project, we have implemented a Content-Based Filtering approach, specifically using genre-based recommendation. Instead of relying on user behavior, this method suggests books by analyzing the content of the books themselves—particularly their genres. By matching genre similarities, users are presented with books that align closely with their interests. Books are the best resources for most of us to develop and gain perspectives. I myself love reading books. Once I like a book, I have a habit of going to good books or asking someone who has a similar taste to look for recommendations for the next series of books I might like. Artificial Intelligence has made our world so easy by recommending us books, movies, and products all based on past data, saving our time and energy on analyzing different options. In fact, sometimes machines can recommend us better than what we think, because they don’t suffer from emotional biases
 
 ## Project Structure
 
