@@ -6,7 +6,7 @@ from src.ui.menuManager import MenuManager
 def main():
     # Show a welcome message
     print("Welcome to the Book Recommendation System!")
-    print("----------------------------------------")
+    print("----------------BRS------------------------")
     
     # Create our database manager (to handle getting books from the database)
     dbManager = DatabaseManager()
