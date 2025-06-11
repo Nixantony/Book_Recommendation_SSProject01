@@ -4,7 +4,7 @@ from src.ui.menuManager import MenuManager
 
 # This is our main function that starts the program
 def main():
-    # Show a welcome message
+    # Show a welcome message display
     print("Welcome to the Book Recommendation System!")
     print("----------------BRS------------------------")
     
