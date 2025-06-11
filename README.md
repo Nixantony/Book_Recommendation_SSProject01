@@ -1,27 +1,25 @@
 # Book Recommendation System
 
-The home page displays the top 10 books based on genres. In recent years, recommender systems have been in great demand in every field, and so has it been in the world of readers. There have been a lot of recommendation techniques developed over the past years, such as Content-Based Filtering, Collaborative Filtering, and Hybrid Filtering. In this project, we have implemented a Content-Based Filtering approach, specifically using genre-based recommendation. Instead of relying on user behavior, this method suggests books by analyzing the content of the books themselves—particularly their genres. By matching genre similarities, users are presented with books that align closely with their interests. Books are the best resources for most of us to develop and gain perspectives. I myself love reading books. Once I like a book, I have a habit of going to good books or asking someone who has a similar taste to look for recommendations for the next series of books I might like. Artificial Intelligence has made our world so easy by recommending us books, movies, and products all based on past data, saving our time and energy on analyzing different options. In fact, sometimes machines can recommend us better than what we think, because they don’t suffer from emotional biases
+The home page displays the top 10 books based on genres. In recent years, recommender systems have been in great demand in every field, and so has it been in the world of readers. There have been a lot of recommendation techniques developed over the past years, such as Content-Based Filtering, Collaborative Filtering, and Hybrid Filtering. In this project, we have implemented a Content-Based Filtering approach, specifically using genre-based recommendation. Instead of relying on user behavior, this method suggests books by analyzing the content of the books themselves—particularly their genres. By matching genre similarities, users are presented with books that align closely with their interests. Books are the best resources for most of us to develop and gain perspectives. I myself love reading books. Once I like a book, I have a habit of going to good books or asking someone who has a similar taste to look for recommendations for the next series of books I might like. Artificial Intelligence has made our world so easy by recommending us books, movies, and products all based on past data, saving our time and energy on analyzing different options. In fact, sometimes machines can recommend us better than what we think, because they don’t suffer from emotional biases.
 
 ## Project Structure
 
 ```
 bookRecommendation/
 │
-├── database/                 # This folder has the SQLite database file
-│   └── books.db              # The actual database that stores all the book info
+├── database/
+│   └── books.db              # SQLite database with book info
 │
-├── src/                      # This is where all the main code lives
-│   ├── models/               # Contains the Book class (represents each book)
-│   │   └── book.py           # Defines what a Book is
-│   │
-│   ├── database/             # Code that connects to and works with the database
-│   │   └── databaseManager.py # Does all the database operations (like add, get books)
-│   │
-│   └── ui/                   # Code for menus and taking user input
-│       └── menuManager.py    # Shows the menu and handles what the user wants to do
+├── src/
+│   ├── models/
+│   │   └── book.py           # Book class (what a book is)
+│   ├── database/
+│   │   └── databaseManager.py # Code to get books from the database
+│   └── ui/
+│       └── menuManager.py    # Code to show menus and take input
 │
-├── main.py                   # This is the main file that starts the program
-└── README.md                 # This file you’re reading right now!
+├── main.py                   # Starts the program
+└── README.md                 # This file
 ```
 
 ## How to Run the Program
